@@ -1,0 +1,14 @@
+.browser-open-card{padding:2px 0 17px;margin:0 0 18px;border-bottom:1px solid #9ccbc6;text-align:center}
+.browser-open-platform{display:block;margin:0 0 10px;color:#39606a;font-size:10px;line-height:1.4;font-weight:850;letter-spacing:.12em}
+.browser-open-card .browser-open-action{display:flex;gap:10px;align-items:center;justify-content:center;margin:0;min-height:66px;padding:14px 10px;font-size:27px;line-height:1.08;text-decoration:none}
+.browser-open-icon{flex:0 0 23px;width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
+.browser-open-note{margin:11px 7px 0;color:#375b65;font-size:12px;line-height:1.6}
+.browser-open-alternative,.browser-open-help{display:inline-block;padding:10px 7px 2px;color:#0a536a;font-size:12px;font-weight:750;text-underline-offset:3px;line-height:1.5}
+.browser-open-help{display:block;width:fit-content;margin:auto}
+.browser-open-status{margin:12px 0 0;padding:11px 12px;border:1px solid #8abbb8;border-radius:9px;background:#fff9;color:#153e48;font-size:12px;line-height:1.6}
+.browser-open-action[aria-disabled="true"]{opacity:.55;pointer-events:none}
+.browser-open-card a:focus-visible{outline:3px solid #0878af;outline-offset:4px}
+.relay-card{text-align:center;padding:30px 20px}
+.relay-card h1{font:800 34px/1.05 var(--display);margin:0 0 13px}
+.relay-card p{font-size:14px;line-height:1.6}
+@media(max-width:350px){.browser-open-card .browser-open-action{font-size:24px;gap:8px}}
